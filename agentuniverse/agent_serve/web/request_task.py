@@ -189,7 +189,7 @@ class RequestTask:
             except asyncio.TimeoutError:
                 await asyncio.sleep(1)
                 print("Waiting for data timed out. Retrying...")
-                if self.async_task and self.async_task.done():
+                if self.async_task and self.async_task.done() and self.async_queue.empty():
                     LOGGER.error("Task finished without EOF")
                     break
                 continue
