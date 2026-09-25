@@ -1,0 +1,7 @@
+{
+  "baseline_diagnostics": 11,
+  "current_diagnostics": 11,
+  "same_codes_and_messages": true,
+  "new_test_lint": "passed",
+  "new_test_format": "passed"
+}

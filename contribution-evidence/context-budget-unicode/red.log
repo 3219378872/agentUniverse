@@ -1,0 +1,368 @@
+test_all_boundaries_preserve_prefix_and_budget (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_unicode.ContextBudgetUnicodeTest.test_all_boundaries_preserve_prefix_and_budget) ... 
+  test_all_boundaries_preserve_prefix_and_budget (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_unicode.ContextBudgetUnicodeTest.test_all_boundaries_preserve_prefix_and_budget) (text='中文🙂abc', budget=1) ... FAIL
+  test_all_boundaries_preserve_prefix_and_budget (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_unicode.ContextBudgetUnicodeTest.test_all_boundaries_preserve_prefix_and_budget) (text='中文🙂abc', budget=2) ... FAIL
+  test_all_boundaries_preserve_prefix_and_budget (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_unicode.ContextBudgetUnicodeTest.test_all_boundaries_preserve_prefix_and_budget) (text='中文🙂abc', budget=4) ... FAIL
+  test_all_boundaries_preserve_prefix_and_budget (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_unicode.ContextBudgetUnicodeTest.test_all_boundaries_preserve_prefix_and_budget) (text='中文🙂abc', budget=5) ... FAIL
+  test_all_boundaries_preserve_prefix_and_budget (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_unicode.ContextBudgetUnicodeTest.test_all_boundaries_preserve_prefix_and_budget) (text='中文🙂abc', budget=7) ... FAIL
+  test_all_boundaries_preserve_prefix_and_budget (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_unicode.ContextBudgetUnicodeTest.test_all_boundaries_preserve_prefix_and_budget) (text='中文🙂abc', budget=8) ... FAIL
+  test_all_boundaries_preserve_prefix_and_budget (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_unicode.ContextBudgetUnicodeTest.test_all_boundaries_preserve_prefix_and_budget) (text='中文🙂abc', budget=9) ... FAIL
+  test_all_boundaries_preserve_prefix_and_budget (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_unicode.ContextBudgetUnicodeTest.test_all_boundaries_preserve_prefix_and_budget) (text='éclair', budget=1) ... FAIL
+  test_all_boundaries_preserve_prefix_and_budget (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_unicode.ContextBudgetUnicodeTest.test_all_boundaries_preserve_prefix_and_budget) (text='áb', budget=2) ... FAIL
+  test_all_boundaries_preserve_prefix_and_budget (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_unicode.ContextBudgetUnicodeTest.test_all_boundaries_preserve_prefix_and_budget) (text='👨\u200d👩\u200d👧\u200d👦', budget=1) ... FAIL
+  test_all_boundaries_preserve_prefix_and_budget (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_unicode.ContextBudgetUnicodeTest.test_all_boundaries_preserve_prefix_and_budget) (text='👨\u200d👩\u200d👧\u200d👦', budget=2) ... FAIL
+  test_all_boundaries_preserve_prefix_and_budget (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_unicode.ContextBudgetUnicodeTest.test_all_boundaries_preserve_prefix_and_budget) (text='👨\u200d👩\u200d👧\u200d👦', budget=3) ... FAIL
+  test_all_boundaries_preserve_prefix_and_budget (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_unicode.ContextBudgetUnicodeTest.test_all_boundaries_preserve_prefix_and_budget) (text='👨\u200d👩\u200d👧\u200d👦', budget=5) ... FAIL
+  test_all_boundaries_preserve_prefix_and_budget (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_unicode.ContextBudgetUnicodeTest.test_all_boundaries_preserve_prefix_and_budget) (text='👨\u200d👩\u200d👧\u200d👦', budget=6) ... FAIL
+  test_all_boundaries_preserve_prefix_and_budget (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_unicode.ContextBudgetUnicodeTest.test_all_boundaries_preserve_prefix_and_budget) (text='👨\u200d👩\u200d👧\u200d👦', budget=8) ... FAIL
+  test_all_boundaries_preserve_prefix_and_budget (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_unicode.ContextBudgetUnicodeTest.test_all_boundaries_preserve_prefix_and_budget) (text='👨\u200d👩\u200d👧\u200d👦', budget=9) ... FAIL
+  test_all_boundaries_preserve_prefix_and_budget (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_unicode.ContextBudgetUnicodeTest.test_all_boundaries_preserve_prefix_and_budget) (text='👨\u200d👩\u200d👧\u200d👦', budget=10) ... FAIL
+  test_all_boundaries_preserve_prefix_and_budget (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_unicode.ContextBudgetUnicodeTest.test_all_boundaries_preserve_prefix_and_budget) (text='👨\u200d👩\u200d👧\u200d👦', budget=12) ... FAIL
+  test_all_boundaries_preserve_prefix_and_budget (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_unicode.ContextBudgetUnicodeTest.test_all_boundaries_preserve_prefix_and_budget) (text='👨\u200d👩\u200d👧\u200d👦', budget=13) ... FAIL
+  test_all_boundaries_preserve_prefix_and_budget (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_unicode.ContextBudgetUnicodeTest.test_all_boundaries_preserve_prefix_and_budget) (text='👨\u200d👩\u200d👧\u200d👦', budget=15) ... FAIL
+  test_all_boundaries_preserve_prefix_and_budget (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_unicode.ContextBudgetUnicodeTest.test_all_boundaries_preserve_prefix_and_budget) (text='👨\u200d👩\u200d👧\u200d👦', budget=16) ... FAIL
+  test_all_boundaries_preserve_prefix_and_budget (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_unicode.ContextBudgetUnicodeTest.test_all_boundaries_preserve_prefix_and_budget) (text='👨\u200d👩\u200d👧\u200d👦', budget=17) ... FAIL
+  test_all_boundaries_preserve_prefix_and_budget (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_unicode.ContextBudgetUnicodeTest.test_all_boundaries_preserve_prefix_and_budget) (text='👨\u200d👩\u200d👧\u200d👦', budget=19) ... FAIL
+  test_all_boundaries_preserve_prefix_and_budget (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_unicode.ContextBudgetUnicodeTest.test_all_boundaries_preserve_prefix_and_budget) (text='👨\u200d👩\u200d👧\u200d👦', budget=20) ... FAIL
+  test_all_boundaries_preserve_prefix_and_budget (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_unicode.ContextBudgetUnicodeTest.test_all_boundaries_preserve_prefix_and_budget) (text='👨\u200d👩\u200d👧\u200d👦', budget=22) ... FAIL
+  test_all_boundaries_preserve_prefix_and_budget (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_unicode.ContextBudgetUnicodeTest.test_all_boundaries_preserve_prefix_and_budget) (text='👨\u200d👩\u200d👧\u200d👦', budget=23) ... FAIL
+  test_all_boundaries_preserve_prefix_and_budget (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_unicode.ContextBudgetUnicodeTest.test_all_boundaries_preserve_prefix_and_budget) (text='👨\u200d👩\u200d👧\u200d👦', budget=24) ... FAIL
+  test_all_boundaries_preserve_prefix_and_budget (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_unicode.ContextBudgetUnicodeTest.test_all_boundaries_preserve_prefix_and_budget) (text='�text', budget=1) ... FAIL
+  test_all_boundaries_preserve_prefix_and_budget (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_unicode.ContextBudgetUnicodeTest.test_all_boundaries_preserve_prefix_and_budget) (text='�text', budget=2) ... FAIL
+test_incomplete_chinese_character_is_not_replaced (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_unicode.ContextBudgetUnicodeTest.test_incomplete_chinese_character_is_not_replaced) ... FAIL
+test_literal_replacement_character_is_preserved (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_unicode.ContextBudgetUnicodeTest.test_literal_replacement_character_is_preserved) ... ok
+test_no_complete_character_fits (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_unicode.ContextBudgetUnicodeTest.test_no_complete_character_fits) ... FAIL
+test_reencoding_prefix_cannot_exceed_budget (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_unicode.ContextBudgetUnicodeTest.test_reencoding_prefix_cannot_exceed_budget) ... FAIL
+test_remaining_budget_after_an_earlier_document (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_unicode.ContextBudgetUnicodeTest.test_remaining_budget_after_an_earlier_document) ... FAIL
+test_truncation_keeps_identity_and_does_not_mutate_input (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_unicode.ContextBudgetUnicodeTest.test_truncation_keeps_identity_and_does_not_mutate_input) ... ok
+test_whole_documents_and_disabled_truncation (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_unicode.ContextBudgetUnicodeTest.test_whole_documents_and_disabled_truncation) ... ok
+test_attributes_loaded_from_configer (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_compressor.TestContextBudgetConfig.test_attributes_loaded_from_configer) ... ok
+test_invalid_counter_raises (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_compressor.TestContextBudgetConfig.test_invalid_counter_raises) ... ok
+test_char_counter_counts_characters (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_compressor.TestContextBudgetCounters.test_char_counter_counts_characters) ... ok
+test_estimate_counter_uses_chars_div_four (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_compressor.TestContextBudgetCounters.test_estimate_counter_uses_chars_div_four) ... ok
+test_tiktoken_counter_counts_real_tokens (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_compressor.TestContextBudgetCounters.test_tiktoken_counter_counts_real_tokens) ... ok
+test_tiktoken_counter_truncates_by_tokens (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_compressor.TestContextBudgetCounters.test_tiktoken_counter_truncates_by_tokens) ... ok
+test_word_counter_counts_words (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_compressor.TestContextBudgetCounters.test_word_counter_counts_words) ... ok
+test_word_counter_truncates_by_words (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_compressor.TestContextBudgetCounters.test_word_counter_truncates_by_words) ... ok
+test_yaml_exposes_module_and_class (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_compressor.TestContextBudgetRegistration.test_yaml_exposes_module_and_class) ... ok
+test_yaml_resolves_to_doc_processor_type (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_compressor.TestContextBudgetRegistration.test_yaml_resolves_to_doc_processor_type) ... ok
+test_empty_input_returns_empty (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_compressor.TestContextBudgetSelection.test_empty_input_returns_empty) ... ok
+test_input_order_preserved (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_compressor.TestContextBudgetSelection.test_input_order_preserved) ... ok
+test_keeps_whole_docs_within_budget (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_compressor.TestContextBudgetSelection.test_keeps_whole_docs_within_budget) ... ok
+test_non_positive_budget_returns_empty (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_compressor.TestContextBudgetSelection.test_non_positive_budget_returns_empty) ... ok
+test_single_doc_exceeding_budget_is_truncated (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_compressor.TestContextBudgetSelection.test_single_doc_exceeding_budget_is_truncated) ... ok
+test_single_doc_exceeding_budget_without_truncate_is_empty (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_compressor.TestContextBudgetSelection.test_single_doc_exceeding_budget_without_truncate_is_empty) ... ok
+test_stops_at_first_overflow_without_truncate (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_compressor.TestContextBudgetSelection.test_stops_at_first_overflow_without_truncate) ... ok
+test_truncated_doc_preserves_id_and_metadata (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_compressor.TestContextBudgetSelection.test_truncated_doc_preserves_id_and_metadata) ... ok
+test_truncates_boundary_doc_to_fit (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_compressor.TestContextBudgetSelection.test_truncates_boundary_doc_to_fit) ... ok
+test_compresses_in_the_pipeline (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_compressor.TestContextBudgetThroughKnowledgePipeline.test_compresses_in_the_pipeline) ... /home/dev/competitions/wuzhen/repos/agentuniverse-budget/.venv/lib/python3.11/site-packages/pydantic/_internal/_config.py:386: UserWarning: Valid config keys have changed in V2:
+* 'allow_mutation' has been removed
+  warnings.warn(message, UserWarning)
+ok
+test_each_instance_uses_its_configured_encoding (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_compressor.TestContextBudgetTiktokenCache.test_each_instance_uses_its_configured_encoding) ... ok
+test_invalid_encoding_before_valid_does_not_poison (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_compressor.TestContextBudgetTiktokenCache.test_invalid_encoding_before_valid_does_not_poison) ... ok
+test_invalid_encoding_raises_configuration_error (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_compressor.TestContextBudgetTiktokenCache.test_invalid_encoding_raises_configuration_error) ... ok
+test_missing_dependency_degrades_instead_of_raising (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_compressor.TestContextBudgetTiktokenCache.test_missing_dependency_degrades_instead_of_raising) ... tiktoken is not available; counting with the chars/4 estimate instead. Install tiktoken or set counter to 'estimate'/'char'/'word' to silence this.
+ok
+
+======================================================================
+FAIL: test_all_boundaries_preserve_prefix_and_budget (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_unicode.ContextBudgetUnicodeTest.test_all_boundaries_preserve_prefix_and_budget) (text='中文🙂abc', budget=1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/dev/competitions/wuzhen/repos/agentuniverse-budget/tests/test_agentuniverse/unit/agent/action/knowledge/doc_processor/test_context_budget_unicode.py", line 74, in test_all_boundaries_preserve_prefix_and_budget
+    self.assertTrue(text.startswith(prefix), repr(prefix))
+AssertionError: False is not true : '�'
+
+======================================================================
+FAIL: test_all_boundaries_preserve_prefix_and_budget (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_unicode.ContextBudgetUnicodeTest.test_all_boundaries_preserve_prefix_and_budget) (text='中文🙂abc', budget=2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/dev/competitions/wuzhen/repos/agentuniverse-budget/tests/test_agentuniverse/unit/agent/action/knowledge/doc_processor/test_context_budget_unicode.py", line 74, in test_all_boundaries_preserve_prefix_and_budget
+    self.assertTrue(text.startswith(prefix), repr(prefix))
+AssertionError: False is not true : '�'
+
+======================================================================
+FAIL: test_all_boundaries_preserve_prefix_and_budget (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_unicode.ContextBudgetUnicodeTest.test_all_boundaries_preserve_prefix_and_budget) (text='中文🙂abc', budget=4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/dev/competitions/wuzhen/repos/agentuniverse-budget/tests/test_agentuniverse/unit/agent/action/knowledge/doc_processor/test_context_budget_unicode.py", line 74, in test_all_boundaries_preserve_prefix_and_budget
+    self.assertTrue(text.startswith(prefix), repr(prefix))
+AssertionError: False is not true : '中�'
+
+======================================================================
+FAIL: test_all_boundaries_preserve_prefix_and_budget (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_unicode.ContextBudgetUnicodeTest.test_all_boundaries_preserve_prefix_and_budget) (text='中文🙂abc', budget=5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/dev/competitions/wuzhen/repos/agentuniverse-budget/tests/test_agentuniverse/unit/agent/action/knowledge/doc_processor/test_context_budget_unicode.py", line 74, in test_all_boundaries_preserve_prefix_and_budget
+    self.assertTrue(text.startswith(prefix), repr(prefix))
+AssertionError: False is not true : '中�'
+
+======================================================================
+FAIL: test_all_boundaries_preserve_prefix_and_budget (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_unicode.ContextBudgetUnicodeTest.test_all_boundaries_preserve_prefix_and_budget) (text='中文🙂abc', budget=7)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/dev/competitions/wuzhen/repos/agentuniverse-budget/tests/test_agentuniverse/unit/agent/action/knowledge/doc_processor/test_context_budget_unicode.py", line 74, in test_all_boundaries_preserve_prefix_and_budget
+    self.assertTrue(text.startswith(prefix), repr(prefix))
+AssertionError: False is not true : '中文�'
+
+======================================================================
+FAIL: test_all_boundaries_preserve_prefix_and_budget (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_unicode.ContextBudgetUnicodeTest.test_all_boundaries_preserve_prefix_and_budget) (text='中文🙂abc', budget=8)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/dev/competitions/wuzhen/repos/agentuniverse-budget/tests/test_agentuniverse/unit/agent/action/knowledge/doc_processor/test_context_budget_unicode.py", line 74, in test_all_boundaries_preserve_prefix_and_budget
+    self.assertTrue(text.startswith(prefix), repr(prefix))
+AssertionError: False is not true : '中文�'
+
+======================================================================
+FAIL: test_all_boundaries_preserve_prefix_and_budget (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_unicode.ContextBudgetUnicodeTest.test_all_boundaries_preserve_prefix_and_budget) (text='中文🙂abc', budget=9)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/dev/competitions/wuzhen/repos/agentuniverse-budget/tests/test_agentuniverse/unit/agent/action/knowledge/doc_processor/test_context_budget_unicode.py", line 74, in test_all_boundaries_preserve_prefix_and_budget
+    self.assertTrue(text.startswith(prefix), repr(prefix))
+AssertionError: False is not true : '中文�'
+
+======================================================================
+FAIL: test_all_boundaries_preserve_prefix_and_budget (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_unicode.ContextBudgetUnicodeTest.test_all_boundaries_preserve_prefix_and_budget) (text='éclair', budget=1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/dev/competitions/wuzhen/repos/agentuniverse-budget/tests/test_agentuniverse/unit/agent/action/knowledge/doc_processor/test_context_budget_unicode.py", line 74, in test_all_boundaries_preserve_prefix_and_budget
+    self.assertTrue(text.startswith(prefix), repr(prefix))
+AssertionError: False is not true : '�'
+
+======================================================================
+FAIL: test_all_boundaries_preserve_prefix_and_budget (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_unicode.ContextBudgetUnicodeTest.test_all_boundaries_preserve_prefix_and_budget) (text='áb', budget=2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/dev/competitions/wuzhen/repos/agentuniverse-budget/tests/test_agentuniverse/unit/agent/action/knowledge/doc_processor/test_context_budget_unicode.py", line 74, in test_all_boundaries_preserve_prefix_and_budget
+    self.assertTrue(text.startswith(prefix), repr(prefix))
+AssertionError: False is not true : 'a�'
+
+======================================================================
+FAIL: test_all_boundaries_preserve_prefix_and_budget (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_unicode.ContextBudgetUnicodeTest.test_all_boundaries_preserve_prefix_and_budget) (text='👨\u200d👩\u200d👧\u200d👦', budget=1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/dev/competitions/wuzhen/repos/agentuniverse-budget/tests/test_agentuniverse/unit/agent/action/knowledge/doc_processor/test_context_budget_unicode.py", line 74, in test_all_boundaries_preserve_prefix_and_budget
+    self.assertTrue(text.startswith(prefix), repr(prefix))
+AssertionError: False is not true : '�'
+
+======================================================================
+FAIL: test_all_boundaries_preserve_prefix_and_budget (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_unicode.ContextBudgetUnicodeTest.test_all_boundaries_preserve_prefix_and_budget) (text='👨\u200d👩\u200d👧\u200d👦', budget=2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/dev/competitions/wuzhen/repos/agentuniverse-budget/tests/test_agentuniverse/unit/agent/action/knowledge/doc_processor/test_context_budget_unicode.py", line 74, in test_all_boundaries_preserve_prefix_and_budget
+    self.assertTrue(text.startswith(prefix), repr(prefix))
+AssertionError: False is not true : '�'
+
+======================================================================
+FAIL: test_all_boundaries_preserve_prefix_and_budget (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_unicode.ContextBudgetUnicodeTest.test_all_boundaries_preserve_prefix_and_budget) (text='👨\u200d👩\u200d👧\u200d👦', budget=3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/dev/competitions/wuzhen/repos/agentuniverse-budget/tests/test_agentuniverse/unit/agent/action/knowledge/doc_processor/test_context_budget_unicode.py", line 74, in test_all_boundaries_preserve_prefix_and_budget
+    self.assertTrue(text.startswith(prefix), repr(prefix))
+AssertionError: False is not true : '�'
+
+======================================================================
+FAIL: test_all_boundaries_preserve_prefix_and_budget (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_unicode.ContextBudgetUnicodeTest.test_all_boundaries_preserve_prefix_and_budget) (text='👨\u200d👩\u200d👧\u200d👦', budget=5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/dev/competitions/wuzhen/repos/agentuniverse-budget/tests/test_agentuniverse/unit/agent/action/knowledge/doc_processor/test_context_budget_unicode.py", line 74, in test_all_boundaries_preserve_prefix_and_budget
+    self.assertTrue(text.startswith(prefix), repr(prefix))
+AssertionError: False is not true : '👨�'
+
+======================================================================
+FAIL: test_all_boundaries_preserve_prefix_and_budget (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_unicode.ContextBudgetUnicodeTest.test_all_boundaries_preserve_prefix_and_budget) (text='👨\u200d👩\u200d👧\u200d👦', budget=6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/dev/competitions/wuzhen/repos/agentuniverse-budget/tests/test_agentuniverse/unit/agent/action/knowledge/doc_processor/test_context_budget_unicode.py", line 74, in test_all_boundaries_preserve_prefix_and_budget
+    self.assertTrue(text.startswith(prefix), repr(prefix))
+AssertionError: False is not true : '👨�'
+
+======================================================================
+FAIL: test_all_boundaries_preserve_prefix_and_budget (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_unicode.ContextBudgetUnicodeTest.test_all_boundaries_preserve_prefix_and_budget) (text='👨\u200d👩\u200d👧\u200d👦', budget=8)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/dev/competitions/wuzhen/repos/agentuniverse-budget/tests/test_agentuniverse/unit/agent/action/knowledge/doc_processor/test_context_budget_unicode.py", line 74, in test_all_boundaries_preserve_prefix_and_budget
+    self.assertTrue(text.startswith(prefix), repr(prefix))
+AssertionError: False is not true : '👨\u200d�'
+
+======================================================================
+FAIL: test_all_boundaries_preserve_prefix_and_budget (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_unicode.ContextBudgetUnicodeTest.test_all_boundaries_preserve_prefix_and_budget) (text='👨\u200d👩\u200d👧\u200d👦', budget=9)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/dev/competitions/wuzhen/repos/agentuniverse-budget/tests/test_agentuniverse/unit/agent/action/knowledge/doc_processor/test_context_budget_unicode.py", line 74, in test_all_boundaries_preserve_prefix_and_budget
+    self.assertTrue(text.startswith(prefix), repr(prefix))
+AssertionError: False is not true : '👨\u200d�'
+
+======================================================================
+FAIL: test_all_boundaries_preserve_prefix_and_budget (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_unicode.ContextBudgetUnicodeTest.test_all_boundaries_preserve_prefix_and_budget) (text='👨\u200d👩\u200d👧\u200d👦', budget=10)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/dev/competitions/wuzhen/repos/agentuniverse-budget/tests/test_agentuniverse/unit/agent/action/knowledge/doc_processor/test_context_budget_unicode.py", line 74, in test_all_boundaries_preserve_prefix_and_budget
+    self.assertTrue(text.startswith(prefix), repr(prefix))
+AssertionError: False is not true : '👨\u200d�'
+
+======================================================================
+FAIL: test_all_boundaries_preserve_prefix_and_budget (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_unicode.ContextBudgetUnicodeTest.test_all_boundaries_preserve_prefix_and_budget) (text='👨\u200d👩\u200d👧\u200d👦', budget=12)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/dev/competitions/wuzhen/repos/agentuniverse-budget/tests/test_agentuniverse/unit/agent/action/knowledge/doc_processor/test_context_budget_unicode.py", line 74, in test_all_boundaries_preserve_prefix_and_budget
+    self.assertTrue(text.startswith(prefix), repr(prefix))
+AssertionError: False is not true : '👨\u200d👩�'
+
+======================================================================
+FAIL: test_all_boundaries_preserve_prefix_and_budget (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_unicode.ContextBudgetUnicodeTest.test_all_boundaries_preserve_prefix_and_budget) (text='👨\u200d👩\u200d👧\u200d👦', budget=13)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/dev/competitions/wuzhen/repos/agentuniverse-budget/tests/test_agentuniverse/unit/agent/action/knowledge/doc_processor/test_context_budget_unicode.py", line 74, in test_all_boundaries_preserve_prefix_and_budget
+    self.assertTrue(text.startswith(prefix), repr(prefix))
+AssertionError: False is not true : '👨\u200d👩�'
+
+======================================================================
+FAIL: test_all_boundaries_preserve_prefix_and_budget (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_unicode.ContextBudgetUnicodeTest.test_all_boundaries_preserve_prefix_and_budget) (text='👨\u200d👩\u200d👧\u200d👦', budget=15)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/dev/competitions/wuzhen/repos/agentuniverse-budget/tests/test_agentuniverse/unit/agent/action/knowledge/doc_processor/test_context_budget_unicode.py", line 74, in test_all_boundaries_preserve_prefix_and_budget
+    self.assertTrue(text.startswith(prefix), repr(prefix))
+AssertionError: False is not true : '👨\u200d👩\u200d�'
+
+======================================================================
+FAIL: test_all_boundaries_preserve_prefix_and_budget (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_unicode.ContextBudgetUnicodeTest.test_all_boundaries_preserve_prefix_and_budget) (text='👨\u200d👩\u200d👧\u200d👦', budget=16)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/dev/competitions/wuzhen/repos/agentuniverse-budget/tests/test_agentuniverse/unit/agent/action/knowledge/doc_processor/test_context_budget_unicode.py", line 74, in test_all_boundaries_preserve_prefix_and_budget
+    self.assertTrue(text.startswith(prefix), repr(prefix))
+AssertionError: False is not true : '👨\u200d👩\u200d�'
+
+======================================================================
+FAIL: test_all_boundaries_preserve_prefix_and_budget (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_unicode.ContextBudgetUnicodeTest.test_all_boundaries_preserve_prefix_and_budget) (text='👨\u200d👩\u200d👧\u200d👦', budget=17)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/dev/competitions/wuzhen/repos/agentuniverse-budget/tests/test_agentuniverse/unit/agent/action/knowledge/doc_processor/test_context_budget_unicode.py", line 74, in test_all_boundaries_preserve_prefix_and_budget
+    self.assertTrue(text.startswith(prefix), repr(prefix))
+AssertionError: False is not true : '👨\u200d👩\u200d�'
+
+======================================================================
+FAIL: test_all_boundaries_preserve_prefix_and_budget (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_unicode.ContextBudgetUnicodeTest.test_all_boundaries_preserve_prefix_and_budget) (text='👨\u200d👩\u200d👧\u200d👦', budget=19)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/dev/competitions/wuzhen/repos/agentuniverse-budget/tests/test_agentuniverse/unit/agent/action/knowledge/doc_processor/test_context_budget_unicode.py", line 74, in test_all_boundaries_preserve_prefix_and_budget
+    self.assertTrue(text.startswith(prefix), repr(prefix))
+AssertionError: False is not true : '👨\u200d👩\u200d👧�'
+
+======================================================================
+FAIL: test_all_boundaries_preserve_prefix_and_budget (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_unicode.ContextBudgetUnicodeTest.test_all_boundaries_preserve_prefix_and_budget) (text='👨\u200d👩\u200d👧\u200d👦', budget=20)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/dev/competitions/wuzhen/repos/agentuniverse-budget/tests/test_agentuniverse/unit/agent/action/knowledge/doc_processor/test_context_budget_unicode.py", line 74, in test_all_boundaries_preserve_prefix_and_budget
+    self.assertTrue(text.startswith(prefix), repr(prefix))
+AssertionError: False is not true : '👨\u200d👩\u200d👧�'
+
+======================================================================
+FAIL: test_all_boundaries_preserve_prefix_and_budget (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_unicode.ContextBudgetUnicodeTest.test_all_boundaries_preserve_prefix_and_budget) (text='👨\u200d👩\u200d👧\u200d👦', budget=22)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/dev/competitions/wuzhen/repos/agentuniverse-budget/tests/test_agentuniverse/unit/agent/action/knowledge/doc_processor/test_context_budget_unicode.py", line 74, in test_all_boundaries_preserve_prefix_and_budget
+    self.assertTrue(text.startswith(prefix), repr(prefix))
+AssertionError: False is not true : '👨\u200d👩\u200d👧\u200d�'
+
+======================================================================
+FAIL: test_all_boundaries_preserve_prefix_and_budget (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_unicode.ContextBudgetUnicodeTest.test_all_boundaries_preserve_prefix_and_budget) (text='👨\u200d👩\u200d👧\u200d👦', budget=23)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/dev/competitions/wuzhen/repos/agentuniverse-budget/tests/test_agentuniverse/unit/agent/action/knowledge/doc_processor/test_context_budget_unicode.py", line 74, in test_all_boundaries_preserve_prefix_and_budget
+    self.assertTrue(text.startswith(prefix), repr(prefix))
+AssertionError: False is not true : '👨\u200d👩\u200d👧\u200d�'
+
+======================================================================
+FAIL: test_all_boundaries_preserve_prefix_and_budget (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_unicode.ContextBudgetUnicodeTest.test_all_boundaries_preserve_prefix_and_budget) (text='👨\u200d👩\u200d👧\u200d👦', budget=24)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/dev/competitions/wuzhen/repos/agentuniverse-budget/tests/test_agentuniverse/unit/agent/action/knowledge/doc_processor/test_context_budget_unicode.py", line 74, in test_all_boundaries_preserve_prefix_and_budget
+    self.assertTrue(text.startswith(prefix), repr(prefix))
+AssertionError: False is not true : '👨\u200d👩\u200d👧\u200d�'
+
+======================================================================
+FAIL: test_all_boundaries_preserve_prefix_and_budget (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_unicode.ContextBudgetUnicodeTest.test_all_boundaries_preserve_prefix_and_budget) (text='�text', budget=1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/dev/competitions/wuzhen/repos/agentuniverse-budget/tests/test_agentuniverse/unit/agent/action/knowledge/doc_processor/test_context_budget_unicode.py", line 75, in test_all_boundaries_preserve_prefix_and_budget
+    self.assertLessEqual(len(self.byte_encoder.encode(prefix)), budget)
+AssertionError: 3 not less than or equal to 1
+
+======================================================================
+FAIL: test_all_boundaries_preserve_prefix_and_budget (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_unicode.ContextBudgetUnicodeTest.test_all_boundaries_preserve_prefix_and_budget) (text='�text', budget=2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/dev/competitions/wuzhen/repos/agentuniverse-budget/tests/test_agentuniverse/unit/agent/action/knowledge/doc_processor/test_context_budget_unicode.py", line 75, in test_all_boundaries_preserve_prefix_and_budget
+    self.assertLessEqual(len(self.byte_encoder.encode(prefix)), budget)
+AssertionError: 3 not less than or equal to 2
+
+======================================================================
+FAIL: test_incomplete_chinese_character_is_not_replaced (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_unicode.ContextBudgetUnicodeTest.test_incomplete_chinese_character_is_not_replaced)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/dev/competitions/wuzhen/repos/agentuniverse-budget/tests/test_agentuniverse/unit/agent/action/knowledge/doc_processor/test_context_budget_unicode.py", line 42, in test_incomplete_chinese_character_is_not_replaced
+    self.assertEqual([doc.text for doc in result], ["中"])
+AssertionError: Lists differ: ['中�'] != ['中']
+
+First differing element 0:
+'中�'
+'中'
+
+- ['中�']
+?    -
+
++ ['中']
+
+======================================================================
+FAIL: test_no_complete_character_fits (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_unicode.ContextBudgetUnicodeTest.test_no_complete_character_fits)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/dev/competitions/wuzhen/repos/agentuniverse-budget/tests/test_agentuniverse/unit/agent/action/knowledge/doc_processor/test_context_budget_unicode.py", line 45, in test_no_complete_character_fits
+    self.assertEqual(self.processor(1).process_docs([Document(text="🙂abc")]), [])
+AssertionError: Lists differ: [Document(id='488b7cd4-b3e7-5da2-86b2-69da[76 chars]t())] != []
+
+First list contains 1 additional elements.
+First extra element 0:
+Document(id='488b7cd4-b3e7-5da2-86b2-69da1f73154a', text='�', metadata={'truncated': True}, embedding=[], keywords=set())
+
+- [Document(id='488b7cd4-b3e7-5da2-86b2-69da1f73154a', text='�', metadata={'truncated': True}, embedding=[], keywords=set())]
++ []
+
+======================================================================
+FAIL: test_reencoding_prefix_cannot_exceed_budget (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_unicode.ContextBudgetUnicodeTest.test_reencoding_prefix_cannot_exceed_budget)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/dev/competitions/wuzhen/repos/agentuniverse-budget/tests/test_agentuniverse/unit/agent/action/knowledge/doc_processor/test_context_budget_unicode.py", line 61, in test_reencoding_prefix_cannot_exceed_budget
+    self.assertEqual([doc.text for doc in result], [" "])
+AssertionError: Lists differ: [' а�'] != [' ']
+
+First differing element 0:
+' а�'
+' '
+
+- [' а�']
+?    --
+
++ [' ']
+
+======================================================================
+FAIL: test_remaining_budget_after_an_earlier_document (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_unicode.ContextBudgetUnicodeTest.test_remaining_budget_after_an_earlier_document)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/dev/competitions/wuzhen/repos/agentuniverse-budget/tests/test_agentuniverse/unit/agent/action/knowledge/doc_processor/test_context_budget_unicode.py", line 50, in test_remaining_budget_after_an_earlier_document
+    self.assertEqual([doc.text for doc in result], ["ok", "🙂"])
+AssertionError: Lists differ: ['ok', '🙂�'] != ['ok', '🙂']
+
+First differing element 1:
+'🙂�'
+'🙂'
+
+- ['ok', '🙂�']
+?          -
+
++ ['ok', '🙂']
+
+----------------------------------------------------------------------
+Ran 32 tests in 0.383s
+
+FAILED (failures=33)

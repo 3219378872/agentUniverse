@@ -1,0 +1,407 @@
+{
+  "source": "upstream 254ecd280f54c2d2de654bbe5373e9f947d2dedf",
+  "tiktoken": "0.12.0",
+  "boundaries_checked": 135,
+  "failures": [
+    {
+      "encoding": "cl100k_base",
+      "input": "你好世界，这是中文测试。",
+      "budget": 3,
+      "output": "你好�",
+      "output_tokens": 3,
+      "is_prefix": false
+    },
+    {
+      "encoding": "cl100k_base",
+      "input": "🙂🙂abc",
+      "budget": 1,
+      "output": "�",
+      "output_tokens": 1,
+      "is_prefix": false
+    },
+    {
+      "encoding": "cl100k_base",
+      "input": "🙂🙂abc",
+      "budget": 3,
+      "output": "🙂�",
+      "output_tokens": 3,
+      "is_prefix": false
+    },
+    {
+      "encoding": "cl100k_base",
+      "input": "👨‍👩‍👧‍👦 family",
+      "budget": 1,
+      "output": "�",
+      "output_tokens": 1,
+      "is_prefix": false
+    },
+    {
+      "encoding": "cl100k_base",
+      "input": "👨‍👩‍👧‍👦 family",
+      "budget": 2,
+      "output": "�",
+      "output_tokens": 1,
+      "is_prefix": false
+    },
+    {
+      "encoding": "cl100k_base",
+      "input": "👨‍👩‍👧‍👦 family",
+      "budget": 4,
+      "output": "👨�",
+      "output_tokens": 4,
+      "is_prefix": false
+    },
+    {
+      "encoding": "cl100k_base",
+      "input": "👨‍👩‍👧‍👦 family",
+      "budget": 6,
+      "output": "👨‍�",
+      "output_tokens": 6,
+      "is_prefix": false
+    },
+    {
+      "encoding": "cl100k_base",
+      "input": "👨‍👩‍👧‍👦 family",
+      "budget": 7,
+      "output": "👨‍�",
+      "output_tokens": 6,
+      "is_prefix": false
+    },
+    {
+      "encoding": "cl100k_base",
+      "input": "👨‍👩‍👧‍👦 family",
+      "budget": 9,
+      "output": "👨‍👩�",
+      "output_tokens": 9,
+      "is_prefix": false
+    },
+    {
+      "encoding": "cl100k_base",
+      "input": "👨‍👩‍👧‍👦 family",
+      "budget": 11,
+      "output": "👨‍👩‍�",
+      "output_tokens": 11,
+      "is_prefix": false
+    },
+    {
+      "encoding": "cl100k_base",
+      "input": "👨‍👩‍👧‍👦 family",
+      "budget": 12,
+      "output": "👨‍👩‍�",
+      "output_tokens": 11,
+      "is_prefix": false
+    },
+    {
+      "encoding": "cl100k_base",
+      "input": "👨‍👩‍👧‍👦 family",
+      "budget": 14,
+      "output": "👨‍👩‍👧�",
+      "output_tokens": 14,
+      "is_prefix": false
+    },
+    {
+      "encoding": "cl100k_base",
+      "input": "👨‍👩‍👧‍👦 family",
+      "budget": 16,
+      "output": "👨‍👩‍👧‍�",
+      "output_tokens": 16,
+      "is_prefix": false
+    },
+    {
+      "encoding": "cl100k_base",
+      "input": "👨‍👩‍👧‍👦 family",
+      "budget": 17,
+      "output": "👨‍👩‍👧‍�",
+      "output_tokens": 16,
+      "is_prefix": false
+    },
+    {
+      "encoding": "cl100k_base",
+      "input": "こんにちは世界",
+      "budget": 2,
+      "output": "こんにちは�",
+      "output_tokens": 2,
+      "is_prefix": false
+    },
+    {
+      "encoding": "cl100k_base",
+      "input": "🧪中文",
+      "budget": 1,
+      "output": "�",
+      "output_tokens": 1,
+      "is_prefix": false
+    },
+    {
+      "encoding": "cl100k_base",
+      "input": "🧪中文",
+      "budget": 2,
+      "output": "�",
+      "output_tokens": 1,
+      "is_prefix": false
+    },
+    {
+      "encoding": "cl100k_base",
+      "input": " раб",
+      "budget": 1,
+      "output": " ра�",
+      "output_tokens": 3,
+      "is_prefix": false
+    },
+    {
+      "encoding": "cl100k_base",
+      "input": "образование",
+      "budget": 1,
+      "output": "обра�",
+      "output_tokens": 3,
+      "is_prefix": false
+    },
+    {
+      "encoding": "p50k_base",
+      "input": "你好世界，这是中文测试。",
+      "budget": 1,
+      "output": "�",
+      "output_tokens": 1,
+      "is_prefix": false
+    },
+    {
+      "encoding": "p50k_base",
+      "input": "你好世界，这是中文测试。",
+      "budget": 3,
+      "output": "你�",
+      "output_tokens": 3,
+      "is_prefix": false
+    },
+    {
+      "encoding": "p50k_base",
+      "input": "你好世界，这是中文测试。",
+      "budget": 5,
+      "output": "你好�",
+      "output_tokens": 5,
+      "is_prefix": false
+    },
+    {
+      "encoding": "p50k_base",
+      "input": "你好世界，这是中文测试。",
+      "budget": 7,
+      "output": "你好世�",
+      "output_tokens": 7,
+      "is_prefix": false
+    },
+    {
+      "encoding": "p50k_base",
+      "input": "你好世界，这是中文测试。",
+      "budget": 9,
+      "output": "你好世界�",
+      "output_tokens": 9,
+      "is_prefix": false
+    },
+    {
+      "encoding": "p50k_base",
+      "input": "你好世界，这是中文测试。",
+      "budget": 10,
+      "output": "你好世界�",
+      "output_tokens": 9,
+      "is_prefix": false
+    },
+    {
+      "encoding": "p50k_base",
+      "input": "你好世界，这是中文测试。",
+      "budget": 12,
+      "output": "你好世界，�",
+      "output_tokens": 12,
+      "is_prefix": false
+    },
+    {
+      "encoding": "p50k_base",
+      "input": "你好世界，这是中文测试。",
+      "budget": 16,
+      "output": "你好世界，这是中�",
+      "output_tokens": 16,
+      "is_prefix": false
+    },
+    {
+      "encoding": "p50k_base",
+      "input": "你好世界，这是中文测试。",
+      "budget": 18,
+      "output": "你好世界，这是中文�",
+      "output_tokens": 18,
+      "is_prefix": false
+    },
+    {
+      "encoding": "p50k_base",
+      "input": "你好世界，这是中文测试。",
+      "budget": 20,
+      "output": "你好世界，这是中文测�",
+      "output_tokens": 20,
+      "is_prefix": false
+    },
+    {
+      "encoding": "p50k_base",
+      "input": "🙂🙂abc",
+      "budget": 1,
+      "output": "�",
+      "output_tokens": 1,
+      "is_prefix": false
+    },
+    {
+      "encoding": "p50k_base",
+      "input": "🙂🙂abc",
+      "budget": 3,
+      "output": "🙂�",
+      "output_tokens": 3,
+      "is_prefix": false
+    },
+    {
+      "encoding": "p50k_base",
+      "input": "👨‍👩‍👧‍👦 family",
+      "budget": 1,
+      "output": "�",
+      "output_tokens": 1,
+      "is_prefix": false
+    },
+    {
+      "encoding": "p50k_base",
+      "input": "👨‍👩‍👧‍👦 family",
+      "budget": 3,
+      "output": "👨�",
+      "output_tokens": 3,
+      "is_prefix": false
+    },
+    {
+      "encoding": "p50k_base",
+      "input": "👨‍👩‍👧‍👦 family",
+      "budget": 5,
+      "output": "👨‍�",
+      "output_tokens": 5,
+      "is_prefix": false
+    },
+    {
+      "encoding": "p50k_base",
+      "input": "👨‍👩‍👧‍👦 family",
+      "budget": 7,
+      "output": "👨‍👩�",
+      "output_tokens": 7,
+      "is_prefix": false
+    },
+    {
+      "encoding": "p50k_base",
+      "input": "👨‍👩‍👧‍👦 family",
+      "budget": 9,
+      "output": "👨‍👩‍�",
+      "output_tokens": 9,
+      "is_prefix": false
+    },
+    {
+      "encoding": "p50k_base",
+      "input": "👨‍👩‍👧‍👦 family",
+      "budget": 11,
+      "output": "👨‍👩‍👧�",
+      "output_tokens": 11,
+      "is_prefix": false
+    },
+    {
+      "encoding": "p50k_base",
+      "input": "👨‍👩‍👧‍👦 family",
+      "budget": 13,
+      "output": "👨‍👩‍👧‍�",
+      "output_tokens": 13,
+      "is_prefix": false
+    },
+    {
+      "encoding": "p50k_base",
+      "input": "こんにちは世界",
+      "budget": 4,
+      "output": "こんに�",
+      "output_tokens": 4,
+      "is_prefix": false
+    },
+    {
+      "encoding": "p50k_base",
+      "input": "こんにちは世界",
+      "budget": 7,
+      "output": "こんにちは�",
+      "output_tokens": 7,
+      "is_prefix": false
+    },
+    {
+      "encoding": "p50k_base",
+      "input": "こんにちは世界",
+      "budget": 9,
+      "output": "こんにちは世�",
+      "output_tokens": 9,
+      "is_prefix": false
+    },
+    {
+      "encoding": "p50k_base",
+      "input": "Привет мир",
+      "budget": 1,
+      "output": "�",
+      "output_tokens": 1,
+      "is_prefix": false
+    },
+    {
+      "encoding": "p50k_base",
+      "input": "Привет мир",
+      "budget": 8,
+      "output": "Привет �",
+      "output_tokens": 8,
+      "is_prefix": false
+    },
+    {
+      "encoding": "p50k_base",
+      "input": "🧪中文",
+      "budget": 1,
+      "output": "�",
+      "output_tokens": 1,
+      "is_prefix": false
+    },
+    {
+      "encoding": "p50k_base",
+      "input": "🧪中文",
+      "budget": 2,
+      "output": "�",
+      "output_tokens": 1,
+      "is_prefix": false
+    },
+    {
+      "encoding": "p50k_base",
+      "input": "🧪中文",
+      "budget": 5,
+      "output": "🧪中�",
+      "output_tokens": 5,
+      "is_prefix": false
+    },
+    {
+      "encoding": "p50k_base",
+      "input": " раб",
+      "budget": 4,
+      "output": " ра�",
+      "output_tokens": 4,
+      "is_prefix": false
+    },
+    {
+      "encoding": "p50k_base",
+      "input": "образование",
+      "budget": 1,
+      "output": "о�",
+      "output_tokens": 2,
+      "is_prefix": false
+    },
+    {
+      "encoding": "p50k_base",
+      "input": "образование",
+      "budget": 5,
+      "output": "обра�",
+      "output_tokens": 5,
+      "is_prefix": false
+    },
+    {
+      "encoding": "p50k_base",
+      "input": "образование",
+      "budget": 7,
+      "output": "образо�",
+      "output_tokens": 8,
+      "is_prefix": false
+    }
+  ]
+}

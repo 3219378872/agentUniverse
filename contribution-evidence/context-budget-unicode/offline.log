@@ -1,0 +1,15 @@
+test_all_boundaries_preserve_prefix_and_budget (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_unicode.ContextBudgetUnicodeTest.test_all_boundaries_preserve_prefix_and_budget) ... ok
+test_incomplete_chinese_character_is_not_replaced (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_unicode.ContextBudgetUnicodeTest.test_incomplete_chinese_character_is_not_replaced) ... ok
+test_literal_replacement_character_is_preserved (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_unicode.ContextBudgetUnicodeTest.test_literal_replacement_character_is_preserved) ... ok
+test_no_complete_character_fits (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_unicode.ContextBudgetUnicodeTest.test_no_complete_character_fits) ... ok
+test_reencoding_prefix_cannot_exceed_budget (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_unicode.ContextBudgetUnicodeTest.test_reencoding_prefix_cannot_exceed_budget) ... ok
+test_remaining_budget_after_an_earlier_document (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_unicode.ContextBudgetUnicodeTest.test_remaining_budget_after_an_earlier_document) ... ok
+test_truncation_keeps_identity_and_does_not_mutate_input (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_unicode.ContextBudgetUnicodeTest.test_truncation_keeps_identity_and_does_not_mutate_input) ... ok
+test_whole_documents_and_disabled_truncation (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_unicode.ContextBudgetUnicodeTest.test_whole_documents_and_disabled_truncation) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.007s
+
+OK
+
+Empty encoding cache remains empty: True

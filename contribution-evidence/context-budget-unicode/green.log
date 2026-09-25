@@ -1,0 +1,47 @@
+test_all_boundaries_preserve_prefix_and_budget (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_unicode.ContextBudgetUnicodeTest.test_all_boundaries_preserve_prefix_and_budget) ... ok
+test_incomplete_chinese_character_is_not_replaced (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_unicode.ContextBudgetUnicodeTest.test_incomplete_chinese_character_is_not_replaced) ... ok
+test_literal_replacement_character_is_preserved (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_unicode.ContextBudgetUnicodeTest.test_literal_replacement_character_is_preserved) ... ok
+test_no_complete_character_fits (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_unicode.ContextBudgetUnicodeTest.test_no_complete_character_fits) ... ok
+test_reencoding_prefix_cannot_exceed_budget (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_unicode.ContextBudgetUnicodeTest.test_reencoding_prefix_cannot_exceed_budget) ... ok
+test_remaining_budget_after_an_earlier_document (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_unicode.ContextBudgetUnicodeTest.test_remaining_budget_after_an_earlier_document) ... ok
+test_truncation_keeps_identity_and_does_not_mutate_input (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_unicode.ContextBudgetUnicodeTest.test_truncation_keeps_identity_and_does_not_mutate_input) ... ok
+test_whole_documents_and_disabled_truncation (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_unicode.ContextBudgetUnicodeTest.test_whole_documents_and_disabled_truncation) ... ok
+test_attributes_loaded_from_configer (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_compressor.TestContextBudgetConfig.test_attributes_loaded_from_configer) ... ok
+test_invalid_counter_raises (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_compressor.TestContextBudgetConfig.test_invalid_counter_raises) ... ok
+test_char_counter_counts_characters (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_compressor.TestContextBudgetCounters.test_char_counter_counts_characters) ... ok
+test_estimate_counter_uses_chars_div_four (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_compressor.TestContextBudgetCounters.test_estimate_counter_uses_chars_div_four) ... ok
+test_tiktoken_counter_counts_real_tokens (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_compressor.TestContextBudgetCounters.test_tiktoken_counter_counts_real_tokens) ... ok
+test_tiktoken_counter_truncates_by_tokens (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_compressor.TestContextBudgetCounters.test_tiktoken_counter_truncates_by_tokens) ... ok
+test_word_counter_counts_words (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_compressor.TestContextBudgetCounters.test_word_counter_counts_words) ... ok
+test_word_counter_truncates_by_words (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_compressor.TestContextBudgetCounters.test_word_counter_truncates_by_words) ... ok
+test_yaml_exposes_module_and_class (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_compressor.TestContextBudgetRegistration.test_yaml_exposes_module_and_class) ... ok
+test_yaml_resolves_to_doc_processor_type (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_compressor.TestContextBudgetRegistration.test_yaml_resolves_to_doc_processor_type) ... ok
+test_empty_input_returns_empty (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_compressor.TestContextBudgetSelection.test_empty_input_returns_empty) ... ok
+test_input_order_preserved (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_compressor.TestContextBudgetSelection.test_input_order_preserved) ... ok
+test_keeps_whole_docs_within_budget (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_compressor.TestContextBudgetSelection.test_keeps_whole_docs_within_budget) ... ok
+test_non_positive_budget_returns_empty (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_compressor.TestContextBudgetSelection.test_non_positive_budget_returns_empty) ... ok
+test_single_doc_exceeding_budget_is_truncated (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_compressor.TestContextBudgetSelection.test_single_doc_exceeding_budget_is_truncated) ... ok
+test_single_doc_exceeding_budget_without_truncate_is_empty (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_compressor.TestContextBudgetSelection.test_single_doc_exceeding_budget_without_truncate_is_empty) ... ok
+test_stops_at_first_overflow_without_truncate (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_compressor.TestContextBudgetSelection.test_stops_at_first_overflow_without_truncate) ... ok
+test_truncated_doc_preserves_id_and_metadata (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_compressor.TestContextBudgetSelection.test_truncated_doc_preserves_id_and_metadata) ... ok
+test_truncates_boundary_doc_to_fit (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_compressor.TestContextBudgetSelection.test_truncates_boundary_doc_to_fit) ... ok
+test_compresses_in_the_pipeline (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_compressor.TestContextBudgetThroughKnowledgePipeline.test_compresses_in_the_pipeline) ... /home/dev/competitions/wuzhen/repos/agentuniverse-budget/agentuniverse/llm/llm_output.py:35: PydanticDeprecatedSince20: Support for class-based `config` is deprecated, use ConfigDict instead. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.13/migration/
+  class FunctionCall(BaseModel):
+/home/dev/competitions/wuzhen/repos/agentuniverse-budget/.venv/lib/python3.11/site-packages/pydantic/_internal/_config.py:386: UserWarning: Valid config keys have changed in V2:
+* 'allow_mutation' has been removed
+  warnings.warn(message, UserWarning)
+/home/dev/competitions/wuzhen/repos/agentuniverse-budget/agentuniverse/agent/action/knowledge/store/store.py:18: PydanticDeprecatedSince20: Support for class-based `config` is deprecated, use ConfigDict instead. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.13/migration/
+  class Store(ComponentBase):
+/home/dev/competitions/wuzhen/repos/agentuniverse-budget/agentuniverse/agent/action/knowledge/knowledge.py:42: PydanticDeprecatedSince20: Support for class-based `config` is deprecated, use ConfigDict instead. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.13/migration/
+  class Knowledge(ComponentBase):
+ok
+test_each_instance_uses_its_configured_encoding (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_compressor.TestContextBudgetTiktokenCache.test_each_instance_uses_its_configured_encoding) ... ok
+test_invalid_encoding_before_valid_does_not_poison (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_compressor.TestContextBudgetTiktokenCache.test_invalid_encoding_before_valid_does_not_poison) ... ok
+test_invalid_encoding_raises_configuration_error (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_compressor.TestContextBudgetTiktokenCache.test_invalid_encoding_raises_configuration_error) ... ok
+test_missing_dependency_degrades_instead_of_raising (tests.test_agentuniverse.unit.agent.action.knowledge.doc_processor.test_context_budget_compressor.TestContextBudgetTiktokenCache.test_missing_dependency_degrades_instead_of_raising) ... tiktoken is not available; counting with the chars/4 estimate instead. Install tiktoken or set counter to 'estimate'/'char'/'word' to silence this.
+ok
+
+----------------------------------------------------------------------
+Ran 32 tests in 0.548s
+
+OK
