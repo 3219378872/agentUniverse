@@ -1,0 +1,96 @@
+/home/dev/competitions/wuzhen/repos/agentuniverse-agent/.agent-venv/lib/python3.11/site-packages/pydantic/_internal/_config.py:386: UserWarning: Valid config keys have changed in V2:
+* 'allow_mutation' has been removed
+  warnings.warn(message, UserWarning)
+test_async_crud (tests.test_agentuniverse.unit.agent.action.knowledge.store.test_redis_vector_store.RedisVectorStoreTest.test_async_crud) ... ok
+test_component_schema (tests.test_agentuniverse.unit.agent.action.knowledge.store.test_redis_vector_store.RedisVectorStoreTest.test_component_schema) ... ok
+test_connection_url_from_environment (tests.test_agentuniverse.unit.agent.action.knowledge.store.test_redis_vector_store.RedisVectorStoreTest.test_connection_url_from_environment) ... ok
+test_delete_uses_prefixed_key (tests.test_agentuniverse.unit.agent.action.knowledge.store.test_redis_vector_store.RedisVectorStoreTest.test_delete_uses_prefixed_key) ... ok
+test_empty_upsert_does_not_contact_redis (tests.test_agentuniverse.unit.agent.action.knowledge.store.test_redis_vector_store.RedisVectorStoreTest.test_empty_upsert_does_not_contact_redis) ... ok
+test_existing_index_error_is_accepted (tests.test_agentuniverse.unit.agent.action.knowledge.store.test_redis_vector_store.RedisVectorStoreTest.test_existing_index_error_is_accepted) ... ok
+test_index_command_contains_hnsw_schema (tests.test_agentuniverse.unit.agent.action.knowledge.store.test_redis_vector_store.RedisVectorStoreTest.test_index_command_contains_hnsw_schema) ... ok
+test_invalid_metadata_does_not_execute_partial_batch (tests.test_agentuniverse.unit.agent.action.knowledge.store.test_redis_vector_store.RedisVectorStoreTest.test_invalid_metadata_does_not_execute_partial_batch) ... ok
+test_invalid_top_k_fails_before_redis (tests.test_agentuniverse.unit.agent.action.knowledge.store.test_redis_vector_store.RedisVectorStoreTest.test_invalid_top_k_fails_before_redis) ... ok
+test_managed_embeddings (tests.test_agentuniverse.unit.agent.action.knowledge.store.test_redis_vector_store.RedisVectorStoreTest.test_managed_embeddings) ... ok
+test_missing_dependency_hint (tests.test_agentuniverse.unit.agent.action.knowledge.store.test_redis_vector_store.RedisVectorStoreTest.test_missing_dependency_hint) ... ok
+test_missing_embeddings_require_model (tests.test_agentuniverse.unit.agent.action.knowledge.store.test_redis_vector_store.RedisVectorStoreTest.test_missing_embeddings_require_model) ... ok
+test_query_and_row_conversion (tests.test_agentuniverse.unit.agent.action.knowledge.store.test_redis_vector_store.RedisVectorStoreTest.test_query_and_row_conversion) ... ok
+test_query_builds_indexed_metadata_filter (tests.test_agentuniverse.unit.agent.action.knowledge.store.test_redis_vector_store.RedisVectorStoreTest.test_query_builds_indexed_metadata_filter) ... ok
+test_query_rejects_unindexed_filter (tests.test_agentuniverse.unit.agent.action.knowledge.store.test_redis_vector_store.RedisVectorStoreTest.test_query_rejects_unindexed_filter) ... ok
+test_rejects_dimension_mismatch_and_nonfinite (tests.test_agentuniverse.unit.agent.action.knowledge.store.test_redis_vector_store.RedisVectorStoreTest.test_rejects_dimension_mismatch_and_nonfinite) ... ok
+test_rejects_unsafe_identifiers (tests.test_agentuniverse.unit.agent.action.knowledge.store.test_redis_vector_store.RedisVectorStoreTest.test_rejects_unsafe_identifiers) ... ok
+test_upsert_removes_only_missing_indexed_fields (tests.test_agentuniverse.unit.agent.action.knowledge.store.test_redis_vector_store.RedisVectorStoreTest.test_upsert_removes_only_missing_indexed_fields) ... 
+  test_upsert_removes_only_missing_indexed_fields (tests.test_agentuniverse.unit.agent.action.knowledge.store.test_redis_vector_store.RedisVectorStoreTest.test_upsert_removes_only_missing_indexed_fields) (asynchronous=False) ... FAIL
+  test_upsert_removes_only_missing_indexed_fields (tests.test_agentuniverse.unit.agent.action.knowledge.store.test_redis_vector_store.RedisVectorStoreTest.test_upsert_removes_only_missing_indexed_fields) (asynchronous=True) ... FAIL
+test_upsert_uses_pipeline_and_filter_fields (tests.test_agentuniverse.unit.agent.action.knowledge.store.test_redis_vector_store.RedisVectorStoreTest.test_upsert_uses_pipeline_and_filter_fields) ... FAIL
+test_vector_binary_round_trip (tests.test_agentuniverse.unit.agent.action.knowledge.store.test_redis_vector_store.RedisVectorStoreTest.test_vector_binary_round_trip) ... ok
+test_async_metadata_replacement (tests.test_agentuniverse.integration.test_redis_vector_store.RedisVectorStoreIntegrationTest.test_async_metadata_replacement) ... FAIL
+test_sync_metadata_replacement (tests.test_agentuniverse.integration.test_redis_vector_store.RedisVectorStoreIntegrationTest.test_sync_metadata_replacement) ... FAIL
+
+======================================================================
+FAIL: test_upsert_removes_only_missing_indexed_fields (tests.test_agentuniverse.unit.agent.action.knowledge.store.test_redis_vector_store.RedisVectorStoreTest.test_upsert_removes_only_missing_indexed_fields) (asynchronous=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/dev/competitions/wuzhen/repos/agentuniverse-agent/tests/test_agentuniverse/unit/agent/action/knowledge/store/test_redis_vector_store.py", line 189, in test_upsert_removes_only_missing_indexed_fields
+    self.assertTrue(connection.transaction)
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_upsert_removes_only_missing_indexed_fields (tests.test_agentuniverse.unit.agent.action.knowledge.store.test_redis_vector_store.RedisVectorStoreTest.test_upsert_removes_only_missing_indexed_fields) (asynchronous=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/dev/competitions/wuzhen/repos/agentuniverse-agent/tests/test_agentuniverse/unit/agent/action/knowledge/store/test_redis_vector_store.py", line 189, in test_upsert_removes_only_missing_indexed_fields
+    self.assertTrue(connection.transaction)
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_upsert_uses_pipeline_and_filter_fields (tests.test_agentuniverse.unit.agent.action.knowledge.store.test_redis_vector_store.RedisVectorStoreTest.test_upsert_uses_pipeline_and_filter_fields)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/dev/competitions/wuzhen/repos/agentuniverse-agent/tests/test_agentuniverse/unit/agent/action/knowledge/store/test_redis_vector_store.py", line 167, in test_upsert_uses_pipeline_and_filter_fields
+    self.assertTrue(connection.transaction)
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_async_metadata_replacement (tests.test_agentuniverse.integration.test_redis_vector_store.RedisVectorStoreIntegrationTest.test_async_metadata_replacement)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/dev/competitions/wuzhen/repos/agentuniverse-agent/tests/test_agentuniverse/integration/test_redis_vector_store.py", line 109, in test_async_metadata_replacement
+    asyncio.run(self.check_replacement(True))
+  File "/home/dev/.local/share/uv/python/cpython-3.11.15-linux-x86_64-gnu/lib/python3.11/asyncio/runners.py", line 190, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/home/dev/.local/share/uv/python/cpython-3.11.15-linux-x86_64-gnu/lib/python3.11/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dev/.local/share/uv/python/cpython-3.11.15-linux-x86_64-gnu/lib/python3.11/asyncio/base_events.py", line 654, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/dev/competitions/wuzhen/repos/agentuniverse-agent/tests/test_agentuniverse/integration/test_redis_vector_store.py", line 77, in check_replacement
+    self.assertEqual(await matching_ids({"category": "legacy"}), set())
+AssertionError: Items in the first set but not the second:
+'manual'
+
+======================================================================
+FAIL: test_sync_metadata_replacement (tests.test_agentuniverse.integration.test_redis_vector_store.RedisVectorStoreIntegrationTest.test_sync_metadata_replacement)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/dev/competitions/wuzhen/repos/agentuniverse-agent/tests/test_agentuniverse/integration/test_redis_vector_store.py", line 106, in test_sync_metadata_replacement
+    asyncio.run(self.check_replacement(False))
+  File "/home/dev/.local/share/uv/python/cpython-3.11.15-linux-x86_64-gnu/lib/python3.11/asyncio/runners.py", line 190, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/home/dev/.local/share/uv/python/cpython-3.11.15-linux-x86_64-gnu/lib/python3.11/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dev/.local/share/uv/python/cpython-3.11.15-linux-x86_64-gnu/lib/python3.11/asyncio/base_events.py", line 654, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/dev/competitions/wuzhen/repos/agentuniverse-agent/tests/test_agentuniverse/integration/test_redis_vector_store.py", line 77, in check_replacement
+    self.assertEqual(await matching_ids({"category": "legacy"}), set())
+AssertionError: Items in the first set but not the second:
+'manual'
+
+----------------------------------------------------------------------
+Ran 22 tests in 0.037s
+
+FAILED (failures=5)
