@@ -1,0 +1,35 @@
+/home/dev/competitions/wuzhen/repos/agentuniverse-pgvector/.venv/lib/python3.11/site-packages/pydantic/_internal/_config.py:386: UserWarning: Valid config keys have changed in V2:
+* 'allow_mutation' has been removed
+  warnings.warn(message, UserWarning)
+server: PostgreSQL 16.15 (Debian 16.15-1.pgdg12+2) on x86_64-pc-linux-gnu, compiled by gcc (Debian 12.2.0-14+deb12u1) 12.2.0, 64-bit
+pgvector: 0.8.6
+[
+  {
+    "mode": "sync",
+    "read_only": false,
+    "ids": [
+      "one"
+    ]
+  },
+  {
+    "mode": "sync",
+    "read_only": true,
+    "ids": [
+      "one"
+    ]
+  },
+  {
+    "mode": "async",
+    "read_only": false,
+    "ids": [
+      "one"
+    ]
+  },
+  {
+    "mode": "async",
+    "read_only": true,
+    "ids": [
+      "one"
+    ]
+  }
+]

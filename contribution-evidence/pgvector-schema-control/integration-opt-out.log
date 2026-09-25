@@ -1,0 +1,12 @@
+/home/dev/competitions/wuzhen/repos/agentuniverse-pgvector/.venv/lib/python3.11/site-packages/pydantic/_internal/_config.py:386: UserWarning: Valid config keys have changed in V2:
+* 'allow_mutation' has been removed
+  warnings.warn(message, UserWarning)
+test_async_operations (tests.test_agentuniverse.integration.test_pgvector_store_permissions.PGVectorPermissionsTest.test_async_operations) ... skipped 'dedicated pgvector test database not configured'
+test_sync_default_creation (tests.test_agentuniverse.integration.test_pgvector_store_permissions.PGVectorPermissionsTest.test_sync_default_creation) ... skipped 'dedicated pgvector test database not configured'
+test_sync_read_only_query (tests.test_agentuniverse.integration.test_pgvector_store_permissions.PGVectorPermissionsTest.test_sync_read_only_query) ... skipped 'dedicated pgvector test database not configured'
+test_sync_restricted_role_crud (tests.test_agentuniverse.integration.test_pgvector_store_permissions.PGVectorPermissionsTest.test_sync_restricted_role_crud) ... skipped 'dedicated pgvector test database not configured'
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.000s
+
+OK (skipped=4)

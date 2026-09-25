@@ -1,0 +1,206 @@
+/home/dev/competitions/wuzhen/repos/agentuniverse-pgvector/.venv/lib/python3.11/site-packages/pydantic/_internal/_config.py:386: UserWarning: Valid config keys have changed in V2:
+* 'allow_mutation' has been removed
+  warnings.warn(message, UserWarning)
+test_disabled_creation_preserves_config_validation (tests.test_agentuniverse.unit.agent.action.knowledge.store.test_pgvector_store.AsyncPGVectorStoreTest.test_disabled_creation_preserves_config_validation) ... ok
+test_new_client_respects_creation_flag_before_registering (tests.test_agentuniverse.unit.agent.action.knowledge.store.test_pgvector_store.AsyncPGVectorStoreTest.test_new_client_respects_creation_flag_before_registering) ... 
+  test_new_client_respects_creation_flag_before_registering (tests.test_agentuniverse.unit.agent.action.knowledge.store.test_pgvector_store.AsyncPGVectorStoreTest.test_new_client_respects_creation_flag_before_registering) (create_table=False) ... FAIL
+test_query_without_creation_only_selects (tests.test_agentuniverse.unit.agent.action.knowledge.store.test_pgvector_store.AsyncPGVectorStoreTest.test_query_without_creation_only_selects) ... FAIL
+test_upsert_without_creation_only_writes_documents (tests.test_agentuniverse.unit.agent.action.knowledge.store.test_pgvector_store.AsyncPGVectorStoreTest.test_upsert_without_creation_only_writes_documents) ... FAIL
+test_component_schema (tests.test_agentuniverse.unit.agent.action.knowledge.store.test_pgvector_store.PGVectorStoreTest.test_component_schema) ... ok
+test_connection_url_from_environment (tests.test_agentuniverse.unit.agent.action.knowledge.store.test_pgvector_store.PGVectorStoreTest.test_connection_url_from_environment) ... ok
+test_delete_is_parameterized (tests.test_agentuniverse.unit.agent.action.knowledge.store.test_pgvector_store.PGVectorStoreTest.test_delete_is_parameterized) ... ok
+test_disabled_creation_preserves_config_validation (tests.test_agentuniverse.unit.agent.action.knowledge.store.test_pgvector_store.PGVectorStoreTest.test_disabled_creation_preserves_config_validation) ... ok
+test_infers_dimension (tests.test_agentuniverse.unit.agent.action.knowledge.store.test_pgvector_store.PGVectorStoreTest.test_infers_dimension) ... ok
+test_invalid_top_k_fails_before_database_access (tests.test_agentuniverse.unit.agent.action.knowledge.store.test_pgvector_store.PGVectorStoreTest.test_invalid_top_k_fails_before_database_access) ... ok
+test_missing_dependency_hint (tests.test_agentuniverse.unit.agent.action.knowledge.store.test_pgvector_store.PGVectorStoreTest.test_missing_dependency_hint) ... ok
+test_new_client_creates_extension_before_registering (tests.test_agentuniverse.unit.agent.action.knowledge.store.test_pgvector_store.PGVectorStoreTest.test_new_client_creates_extension_before_registering) ... ok
+test_new_client_without_creation_only_registers_existing_extension (tests.test_agentuniverse.unit.agent.action.knowledge.store.test_pgvector_store.PGVectorStoreTest.test_new_client_without_creation_only_registers_existing_extension) ... FAIL
+test_query_requires_embedding (tests.test_agentuniverse.unit.agent.action.knowledge.store.test_pgvector_store.PGVectorStoreTest.test_query_requires_embedding) ... ok
+test_query_uses_embedding_component (tests.test_agentuniverse.unit.agent.action.knowledge.store.test_pgvector_store.PGVectorStoreTest.test_query_uses_embedding_component) ... ok
+test_query_with_metadata_filter (tests.test_agentuniverse.unit.agent.action.knowledge.store.test_pgvector_store.PGVectorStoreTest.test_query_with_metadata_filter) ... ok
+test_query_without_creation_only_selects (tests.test_agentuniverse.unit.agent.action.knowledge.store.test_pgvector_store.PGVectorStoreTest.test_query_without_creation_only_selects) ... FAIL
+test_rejects_dimension_mismatch (tests.test_agentuniverse.unit.agent.action.knowledge.store.test_pgvector_store.PGVectorStoreTest.test_rejects_dimension_mismatch) ... ok
+test_rejects_unsafe_table_name (tests.test_agentuniverse.unit.agent.action.knowledge.store.test_pgvector_store.PGVectorStoreTest.test_rejects_unsafe_table_name) ... ok
+test_rows_to_documents (tests.test_agentuniverse.unit.agent.action.knowledge.store.test_pgvector_store.PGVectorStoreTest.test_rows_to_documents) ... ok
+test_rows_to_documents_supports_pgvector_value (tests.test_agentuniverse.unit.agent.action.knowledge.store.test_pgvector_store.PGVectorStoreTest.test_rows_to_documents_supports_pgvector_value) ... ok
+test_table_sql_cosine (tests.test_agentuniverse.unit.agent.action.knowledge.store.test_pgvector_store.PGVectorStoreTest.test_table_sql_cosine) ... ok
+test_upsert_generates_missing_embeddings (tests.test_agentuniverse.unit.agent.action.knowledge.store.test_pgvector_store.PGVectorStoreTest.test_upsert_generates_missing_embeddings) ... ok
+test_upsert_parameterizes_values (tests.test_agentuniverse.unit.agent.action.knowledge.store.test_pgvector_store.PGVectorStoreTest.test_upsert_parameterizes_values) ... ok
+test_upsert_without_creation_only_writes_documents (tests.test_agentuniverse.unit.agent.action.knowledge.store.test_pgvector_store.PGVectorStoreTest.test_upsert_without_creation_only_writes_documents) ... FAIL
+test_async_operations (tests.test_agentuniverse.integration.test_pgvector_store_permissions.PGVectorPermissionsTest.test_async_operations) ... 
+  test_async_operations (tests.test_agentuniverse.integration.test_pgvector_store_permissions.PGVectorPermissionsTest.test_async_operations) (read_only=False, automatic=False) ... ERROR
+  test_async_operations (tests.test_agentuniverse.integration.test_pgvector_store_permissions.PGVectorPermissionsTest.test_async_operations) (read_only=True, automatic=False) ... ERROR
+test_sync_default_creation (tests.test_agentuniverse.integration.test_pgvector_store_permissions.PGVectorPermissionsTest.test_sync_default_creation) ... ok
+test_sync_read_only_query (tests.test_agentuniverse.integration.test_pgvector_store_permissions.PGVectorPermissionsTest.test_sync_read_only_query) ... ERROR
+test_sync_restricted_role_crud (tests.test_agentuniverse.integration.test_pgvector_store_permissions.PGVectorPermissionsTest.test_sync_restricted_role_crud) ... ERROR
+
+======================================================================
+ERROR: test_async_operations (tests.test_agentuniverse.integration.test_pgvector_store_permissions.PGVectorPermissionsTest.test_async_operations) (read_only=False, automatic=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/dev/competitions/wuzhen/repos/agentuniverse-pgvector/tests/test_agentuniverse/integration/test_pgvector_store_permissions.py", line 123, in async_operations
+    await store.async_insert_document([Document(id="async", text="new", embedding=[0.0, 1.0])])
+  File "<upstream-pgvector-store-254ecd280f54c2d2de654bbe5373e9f947d2dedf>", line 261, in async_insert_document
+  File "<upstream-pgvector-store-254ecd280f54c2d2de654bbe5373e9f947d2dedf>", line 245, in async_upsert_document
+  File "<upstream-pgvector-store-254ecd280f54c2d2de654bbe5373e9f947d2dedf>", line 141, in _async_ensure_table
+  File "/home/dev/competitions/wuzhen/repos/agentuniverse-pgvector/.venv/lib/python3.11/site-packages/psycopg/connection_async.py", line 327, in execute
+    raise ex.with_traceback(None)
+psycopg.errors.InsufficientPrivilege: permission denied for schema au_test_f433e201f674
+LINE 1: CREATE TABLE IF NOT EXISTS docs (id TEXT PRIMARY KEY, text T...
+                                   ^
+
+======================================================================
+ERROR: test_async_operations (tests.test_agentuniverse.integration.test_pgvector_store_permissions.PGVectorPermissionsTest.test_async_operations) (read_only=True, automatic=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/dev/competitions/wuzhen/repos/agentuniverse-pgvector/tests/test_agentuniverse/integration/test_pgvector_store_permissions.py", line 125, in async_operations
+    documents = await store.async_query(self.query())
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<upstream-pgvector-store-254ecd280f54c2d2de654bbe5373e9f947d2dedf>", line 210, in async_query
+  File "<upstream-pgvector-store-254ecd280f54c2d2de654bbe5373e9f947d2dedf>", line 139, in _async_ensure_table
+  File "<upstream-pgvector-store-254ecd280f54c2d2de654bbe5373e9f947d2dedf>", line 115, in _ensure_async_client
+  File "<upstream-pgvector-store-254ecd280f54c2d2de654bbe5373e9f947d2dedf>", line 105, in _new_async_client
+  File "/home/dev/competitions/wuzhen/repos/agentuniverse-pgvector/.venv/lib/python3.11/site-packages/psycopg/connection_async.py", line 327, in execute
+    raise ex.with_traceback(None)
+psycopg.errors.ReadOnlySqlTransaction: cannot execute CREATE EXTENSION in a read-only transaction
+
+======================================================================
+ERROR: test_sync_read_only_query (tests.test_agentuniverse.integration.test_pgvector_store_permissions.PGVectorPermissionsTest.test_sync_read_only_query)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/dev/competitions/wuzhen/repos/agentuniverse-pgvector/tests/test_agentuniverse/integration/test_pgvector_store_permissions.py", line 90, in test_sync_read_only_query
+    self.assertEqual([d.id for d in store.query(self.query())], ["seed"])
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<upstream-pgvector-store-254ecd280f54c2d2de654bbe5373e9f947d2dedf>", line 191, in query
+  File "<upstream-pgvector-store-254ecd280f54c2d2de654bbe5373e9f947d2dedf>", line 134, in _ensure_table
+  File "<upstream-pgvector-store-254ecd280f54c2d2de654bbe5373e9f947d2dedf>", line 112, in _ensure_client
+  File "<upstream-pgvector-store-254ecd280f54c2d2de654bbe5373e9f947d2dedf>", line 95, in _new_client
+  File "/home/dev/competitions/wuzhen/repos/agentuniverse-pgvector/.venv/lib/python3.11/site-packages/psycopg/connection.py", line 300, in execute
+    raise ex.with_traceback(None)
+psycopg.errors.ReadOnlySqlTransaction: cannot execute CREATE EXTENSION in a read-only transaction
+
+======================================================================
+ERROR: test_sync_restricted_role_crud (tests.test_agentuniverse.integration.test_pgvector_store_permissions.PGVectorPermissionsTest.test_sync_restricted_role_crud)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/dev/competitions/wuzhen/repos/agentuniverse-pgvector/tests/test_agentuniverse/integration/test_pgvector_store_permissions.py", line 72, in test_sync_restricted_role_crud
+    self.assertEqual([d.id for d in store.query(self.query(), metadata_filter={"team": "a"})], ["seed"])
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<upstream-pgvector-store-254ecd280f54c2d2de654bbe5373e9f947d2dedf>", line 191, in query
+  File "<upstream-pgvector-store-254ecd280f54c2d2de654bbe5373e9f947d2dedf>", line 136, in _ensure_table
+  File "/home/dev/competitions/wuzhen/repos/agentuniverse-pgvector/.venv/lib/python3.11/site-packages/psycopg/connection.py", line 300, in execute
+    raise ex.with_traceback(None)
+psycopg.errors.InsufficientPrivilege: permission denied for schema au_test_f433e201f674
+LINE 1: CREATE TABLE IF NOT EXISTS docs (id TEXT PRIMARY KEY, text T...
+                                   ^
+
+======================================================================
+FAIL: test_new_client_respects_creation_flag_before_registering (tests.test_agentuniverse.unit.agent.action.knowledge.store.test_pgvector_store.AsyncPGVectorStoreTest.test_new_client_respects_creation_flag_before_registering) (create_table=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/dev/competitions/wuzhen/repos/agentuniverse-pgvector/tests/test_agentuniverse/unit/agent/action/knowledge/store/test_pgvector_store.py", line 228, in test_new_client_respects_creation_flag_before_registering
+    self.assertIs(await store._new_async_client(), connection)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<upstream-pgvector-store-254ecd280f54c2d2de654bbe5373e9f947d2dedf>", line 106, in _new_async_client
+  File "/home/dev/.local/share/uv/python/cpython-3.11.15-linux-x86_64-gnu/lib/python3.11/unittest/mock.py", line 2251, in _execute_mock_call
+    result = await effect(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dev/competitions/wuzhen/repos/agentuniverse-pgvector/tests/test_agentuniverse/unit/agent/action/knowledge/store/test_pgvector_store.py", line 223, in register
+    expected_connection.execute.assert_not_awaited()
+  File "/home/dev/.local/share/uv/python/cpython-3.11.15-linux-x86_64-gnu/lib/python3.11/unittest/mock.py", line 2378, in assert_not_awaited
+    raise AssertionError(msg)
+AssertionError: Expected execute to not have been awaited. Awaited 1 times.
+
+======================================================================
+FAIL: test_query_without_creation_only_selects (tests.test_agentuniverse.unit.agent.action.knowledge.store.test_pgvector_store.AsyncPGVectorStoreTest.test_query_without_creation_only_selects)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/dev/.local/share/uv/python/cpython-3.11.15-linux-x86_64-gnu/lib/python3.11/unittest/async_case.py", line 90, in _callTestMethod
+    if self._callMaybeAsync(method) is not None:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dev/.local/share/uv/python/cpython-3.11.15-linux-x86_64-gnu/lib/python3.11/unittest/async_case.py", line 112, in _callMaybeAsync
+    return self._asyncioRunner.run(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dev/.local/share/uv/python/cpython-3.11.15-linux-x86_64-gnu/lib/python3.11/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dev/.local/share/uv/python/cpython-3.11.15-linux-x86_64-gnu/lib/python3.11/asyncio/base_events.py", line 654, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/dev/competitions/wuzhen/repos/agentuniverse-pgvector/tests/test_agentuniverse/unit/agent/action/knowledge/store/test_pgvector_store.py", line 240, in test_query_without_creation_only_selects
+    connection.execute.assert_awaited_once()
+  File "/home/dev/.local/share/uv/python/cpython-3.11.15-linux-x86_64-gnu/lib/python3.11/unittest/mock.py", line 2283, in assert_awaited_once
+    raise AssertionError(msg)
+AssertionError: Expected execute to have been awaited once. Awaited 4 times.
+
+======================================================================
+FAIL: test_upsert_without_creation_only_writes_documents (tests.test_agentuniverse.unit.agent.action.knowledge.store.test_pgvector_store.AsyncPGVectorStoreTest.test_upsert_without_creation_only_writes_documents)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/dev/.local/share/uv/python/cpython-3.11.15-linux-x86_64-gnu/lib/python3.11/unittest/async_case.py", line 90, in _callTestMethod
+    if self._callMaybeAsync(method) is not None:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dev/.local/share/uv/python/cpython-3.11.15-linux-x86_64-gnu/lib/python3.11/unittest/async_case.py", line 112, in _callMaybeAsync
+    return self._asyncioRunner.run(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dev/.local/share/uv/python/cpython-3.11.15-linux-x86_64-gnu/lib/python3.11/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dev/.local/share/uv/python/cpython-3.11.15-linux-x86_64-gnu/lib/python3.11/asyncio/base_events.py", line 654, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/dev/competitions/wuzhen/repos/agentuniverse-pgvector/tests/test_agentuniverse/unit/agent/action/knowledge/store/test_pgvector_store.py", line 253, in test_upsert_without_creation_only_writes_documents
+    connection.execute.assert_not_awaited()
+  File "/home/dev/.local/share/uv/python/cpython-3.11.15-linux-x86_64-gnu/lib/python3.11/unittest/mock.py", line 2378, in assert_not_awaited
+    raise AssertionError(msg)
+AssertionError: Expected execute to not have been awaited. Awaited 3 times.
+
+======================================================================
+FAIL: test_new_client_without_creation_only_registers_existing_extension (tests.test_agentuniverse.unit.agent.action.knowledge.store.test_pgvector_store.PGVectorStoreTest.test_new_client_without_creation_only_registers_existing_extension)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/dev/competitions/wuzhen/repos/agentuniverse-pgvector/tests/test_agentuniverse/unit/agent/action/knowledge/store/test_pgvector_store.py", line 67, in test_new_client_without_creation_only_registers_existing_extension
+    self.assertEqual(connection.calls, [])
+AssertionError: Lists differ: [('CREATE EXTENSION IF NOT EXISTS vector', None)] != []
+
+First list contains 1 additional elements.
+First extra element 0:
+('CREATE EXTENSION IF NOT EXISTS vector', None)
+
+- [('CREATE EXTENSION IF NOT EXISTS vector', None)]
++ []
+
+======================================================================
+FAIL: test_query_without_creation_only_selects (tests.test_agentuniverse.unit.agent.action.knowledge.store.test_pgvector_store.PGVectorStoreTest.test_query_without_creation_only_selects)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/dev/competitions/wuzhen/repos/agentuniverse-pgvector/tests/test_agentuniverse/unit/agent/action/knowledge/store/test_pgvector_store.py", line 75, in test_query_without_creation_only_selects
+    self.assertEqual(len(connection.calls), 1)
+AssertionError: 4 != 1
+
+======================================================================
+FAIL: test_upsert_without_creation_only_writes_documents (tests.test_agentuniverse.unit.agent.action.knowledge.store.test_pgvector_store.PGVectorStoreTest.test_upsert_without_creation_only_writes_documents)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/dev/competitions/wuzhen/repos/agentuniverse-pgvector/tests/test_agentuniverse/unit/agent/action/knowledge/store/test_pgvector_store.py", line 84, in test_upsert_without_creation_only_writes_documents
+    self.assertEqual(connection.calls, [])
+AssertionError: Lists differ: [('CREATE EXTENSION IF NOT EXISTS vector',[326 chars]one)] != []
+
+First list contains 3 additional elements.
+First extra element 0:
+('CREATE EXTENSION IF NOT EXISTS vector', None)
+
++ []
+- [('CREATE EXTENSION IF NOT EXISTS vector', None),
+-  ('CREATE TABLE IF NOT EXISTS agentuniverse_documents (id TEXT PRIMARY KEY, '
+-   "text TEXT NOT NULL, metadata JSONB NOT NULL DEFAULT '{}'::jsonb, embedding "
+-   'vector(2) NOT NULL)',
+-   None),
+-  ('CREATE INDEX IF NOT EXISTS agentuniverse_documents_embedding_hnsw ON '
+-   'agentuniverse_documents USING hnsw (embedding vector_cosine_ops)',
+-   None)]
+
+----------------------------------------------------------------------
+Ran 29 tests in 0.119s
+
+FAILED (failures=6, errors=4)

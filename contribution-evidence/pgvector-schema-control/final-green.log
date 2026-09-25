@@ -1,0 +1,37 @@
+/home/dev/competitions/wuzhen/repos/agentuniverse-pgvector/.venv/lib/python3.11/site-packages/pydantic/_internal/_config.py:386: UserWarning: Valid config keys have changed in V2:
+* 'allow_mutation' has been removed
+  warnings.warn(message, UserWarning)
+test_disabled_creation_preserves_config_validation (tests.test_agentuniverse.unit.agent.action.knowledge.store.test_pgvector_store.AsyncPGVectorStoreTest.test_disabled_creation_preserves_config_validation) ... ok
+test_new_client_respects_creation_flag_before_registering (tests.test_agentuniverse.unit.agent.action.knowledge.store.test_pgvector_store.AsyncPGVectorStoreTest.test_new_client_respects_creation_flag_before_registering) ... ok
+test_query_without_creation_only_selects (tests.test_agentuniverse.unit.agent.action.knowledge.store.test_pgvector_store.AsyncPGVectorStoreTest.test_query_without_creation_only_selects) ... ok
+test_upsert_without_creation_only_writes_documents (tests.test_agentuniverse.unit.agent.action.knowledge.store.test_pgvector_store.AsyncPGVectorStoreTest.test_upsert_without_creation_only_writes_documents) ... ok
+test_component_schema (tests.test_agentuniverse.unit.agent.action.knowledge.store.test_pgvector_store.PGVectorStoreTest.test_component_schema) ... ok
+test_connection_url_from_environment (tests.test_agentuniverse.unit.agent.action.knowledge.store.test_pgvector_store.PGVectorStoreTest.test_connection_url_from_environment) ... ok
+test_delete_is_parameterized (tests.test_agentuniverse.unit.agent.action.knowledge.store.test_pgvector_store.PGVectorStoreTest.test_delete_is_parameterized) ... ok
+test_disabled_creation_preserves_config_validation (tests.test_agentuniverse.unit.agent.action.knowledge.store.test_pgvector_store.PGVectorStoreTest.test_disabled_creation_preserves_config_validation) ... ok
+test_infers_dimension (tests.test_agentuniverse.unit.agent.action.knowledge.store.test_pgvector_store.PGVectorStoreTest.test_infers_dimension) ... ok
+test_invalid_top_k_fails_before_database_access (tests.test_agentuniverse.unit.agent.action.knowledge.store.test_pgvector_store.PGVectorStoreTest.test_invalid_top_k_fails_before_database_access) ... ok
+test_missing_dependency_hint (tests.test_agentuniverse.unit.agent.action.knowledge.store.test_pgvector_store.PGVectorStoreTest.test_missing_dependency_hint) ... ok
+test_new_client_creates_extension_before_registering (tests.test_agentuniverse.unit.agent.action.knowledge.store.test_pgvector_store.PGVectorStoreTest.test_new_client_creates_extension_before_registering) ... ok
+test_new_client_without_creation_only_registers_existing_extension (tests.test_agentuniverse.unit.agent.action.knowledge.store.test_pgvector_store.PGVectorStoreTest.test_new_client_without_creation_only_registers_existing_extension) ... ok
+test_query_requires_embedding (tests.test_agentuniverse.unit.agent.action.knowledge.store.test_pgvector_store.PGVectorStoreTest.test_query_requires_embedding) ... ok
+test_query_uses_embedding_component (tests.test_agentuniverse.unit.agent.action.knowledge.store.test_pgvector_store.PGVectorStoreTest.test_query_uses_embedding_component) ... ok
+test_query_with_metadata_filter (tests.test_agentuniverse.unit.agent.action.knowledge.store.test_pgvector_store.PGVectorStoreTest.test_query_with_metadata_filter) ... ok
+test_query_without_creation_only_selects (tests.test_agentuniverse.unit.agent.action.knowledge.store.test_pgvector_store.PGVectorStoreTest.test_query_without_creation_only_selects) ... ok
+test_rejects_dimension_mismatch (tests.test_agentuniverse.unit.agent.action.knowledge.store.test_pgvector_store.PGVectorStoreTest.test_rejects_dimension_mismatch) ... ok
+test_rejects_unsafe_table_name (tests.test_agentuniverse.unit.agent.action.knowledge.store.test_pgvector_store.PGVectorStoreTest.test_rejects_unsafe_table_name) ... ok
+test_rows_to_documents (tests.test_agentuniverse.unit.agent.action.knowledge.store.test_pgvector_store.PGVectorStoreTest.test_rows_to_documents) ... ok
+test_rows_to_documents_supports_pgvector_value (tests.test_agentuniverse.unit.agent.action.knowledge.store.test_pgvector_store.PGVectorStoreTest.test_rows_to_documents_supports_pgvector_value) ... ok
+test_table_sql_cosine (tests.test_agentuniverse.unit.agent.action.knowledge.store.test_pgvector_store.PGVectorStoreTest.test_table_sql_cosine) ... ok
+test_upsert_generates_missing_embeddings (tests.test_agentuniverse.unit.agent.action.knowledge.store.test_pgvector_store.PGVectorStoreTest.test_upsert_generates_missing_embeddings) ... ok
+test_upsert_parameterizes_values (tests.test_agentuniverse.unit.agent.action.knowledge.store.test_pgvector_store.PGVectorStoreTest.test_upsert_parameterizes_values) ... ok
+test_upsert_without_creation_only_writes_documents (tests.test_agentuniverse.unit.agent.action.knowledge.store.test_pgvector_store.PGVectorStoreTest.test_upsert_without_creation_only_writes_documents) ... ok
+test_async_operations (tests.test_agentuniverse.integration.test_pgvector_store_permissions.PGVectorPermissionsTest.test_async_operations) ... ok
+test_sync_default_creation (tests.test_agentuniverse.integration.test_pgvector_store_permissions.PGVectorPermissionsTest.test_sync_default_creation) ... ok
+test_sync_read_only_query (tests.test_agentuniverse.integration.test_pgvector_store_permissions.PGVectorPermissionsTest.test_sync_read_only_query) ... ok
+test_sync_restricted_role_crud (tests.test_agentuniverse.integration.test_pgvector_store_permissions.PGVectorPermissionsTest.test_sync_restricted_role_crud) ... ok
+
+----------------------------------------------------------------------
+Ran 29 tests in 0.142s
+
+OK
